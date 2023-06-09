@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid__columna {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem;
+
+  }
+
+  .colaboradores__titulo {
+    color: white;
+  }
